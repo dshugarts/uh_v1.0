@@ -1,6 +1,19 @@
-<div class="container">
-<h2>Fat Secret API Test</h2>
-</div>
-<div class="container">
-    <script src="https://platform.fatsecret.com/js?key=73153570866c4e87a9c5843ac459c3ca&auto_load=true"></script>
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample Code</title>
+		<script src="https://platform.fatsecret.com/js?key=0f5d2ea8f3dd4df68020b0fb8dbfdf68"></script></script>
+		<script>
+			function doLoad(){
+				fatsecret.setContainer("my_container");
+				fatsecret.setCanvas("home");
+			}
+		</script>
+	</head>
+	<body onload="doLoad()">
+		<div style="width:500px;margin:0 auto;">
+			<div id="my_container" class="fatsecret_container">
+			</div>
+		</div>
+	</body>
+</html>
