@@ -4,7 +4,7 @@ myApp.controller('HomeController', ['$location', function($location) {
     var self = this;
 
     self.toLogin = function() {
-        $location.url('/login')
+        $location.url('/fat')
       } // end toLogin
 
   }]);

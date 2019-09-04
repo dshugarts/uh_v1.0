@@ -11,6 +11,10 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
       templateUrl: '/views/templates/home.html',
       controller: 'HomeController as vm',
     })
+    .when('/fat', {
+      templateUrl: '/views/templates/fat.html',
+      controller: 'HomeController as vm',
+    })
     .when('/login', {
       templateUrl: '/views/templates/login.html',
       controller: 'LoginController as vm',
